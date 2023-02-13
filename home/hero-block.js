@@ -219,9 +219,6 @@ function HeroBlock() {
             variant='cover'
             disableRipple
             className={cls(classes.button)}
-            onClick={() => {
-              setValue(false);
-            }}
           >
             Request Invite
           </Button>

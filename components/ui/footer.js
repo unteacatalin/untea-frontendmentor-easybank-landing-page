@@ -385,10 +385,6 @@ function Footer() {
                 classes.button,
                 value === false && classes.buttonSelected
               )}
-              onClick={() => {
-                setOpenDrawer(false);
-                setValue(false);
-              }}
             >
               Request Invite
             </Button>

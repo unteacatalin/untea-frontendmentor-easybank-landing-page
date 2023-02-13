@@ -29,15 +29,6 @@ const useStyles = makeStyles()((theme) => {
     main: {
       width: '100%',
       minHeight: 'calc(100vh - 90.39px - 238.8px)',
-      [theme.breakpoints.down('xl')]: {
-        minHeight: 'calc(100vh - 90.39px - 238.8px)',
-      },
-      [theme.breakpoints.down('lg')]: {
-        minHeight: 'calc(100vh - 90.39px - 640.42px)',
-      },
-      [theme.breakpoints.down('md')]: {
-        minHeight: 'calc(100vh - 90.39px - 640.42px)',
-      },
     },
   };
 });
